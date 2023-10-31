@@ -1,0 +1,102 @@
+#wrapper{
+    max-width: 1265px;
+    background-color: rgb(red, green, blue);
+}
+
+header{
+    width: 1200px;
+    padding: 2em;
+    background-color: #000;
+    background-image: url(../west-wing-image.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background:
+    linear-gradient(90deg, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 30%, rgba(255, 255, 255, 0) 43%)
+    url("/Midterm/west-wing-image.jpg") no-repeat top center/70%;
+}
+
+.lead{
+    width: 280px;
+    color: white;
+}
+
+h1 img{
+    width:300px;;
+}
+
+.buttom{
+    display: block;
+    width: 3em;
+    text-align: center;
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    margin-right: 2em;
+    border-right: solid 1px #fff;
+    padding-right: 2em;
+}
+
+nav li:last-child{
+    border:none;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav{
+    background-color: #333;
+    padding: 0.1em 0;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.col{
+    float:left;
+    width:49%;
+    margin-right:2%;
+}
+
+.col:last-child{
+    margin-right:0;
+}
+
+footer{
+    clear:both;
+}
+
+/*Episodes edit*/
+
+.episodes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    flex: 0 1 378px;
+    border: solid 1px #ccc;
+    margin-bottom: 2em;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p, .card h3{
+    margin: 1em;
+}
